@@ -60,7 +60,12 @@ def __INFLOG__(module, message, inp=False, ts=True):
 os.system('cls')
 size = os.get_terminal_size().columns
 banner = f"""
-
+{r'  SSSSS   AAAAA   AAAAA  L       AAAAA   M   M   OOOOO  N   N  EEEEE '.center(self.size)}
+{r' S         A   A   A   A L       A   A   MM MM  O     O NN  N  E     '.center(self.size)}
+{r' SSSSS    AAAAA   AAAAA  L       AAAAA   M M M  O     O N N N  EEEE  '.center(self.size)}
+{r'     S    A   A   A   A L       A   A   M   M  O     O N  NN  E      '.center(self.size)}
+{r'SSSSS    A   A   A   A LLLLL   A   A   M   M   OOOOO  N   N  EEEEE   '.center(self.size)}
+""""                                                           
 print(ab5.vgratient(banner, [0, 255, 96], [128, 163, 91]))
 __INFLOG__('Main', 'Launching!')
 __INFLOG__('Main', 'Checking file structure...')
